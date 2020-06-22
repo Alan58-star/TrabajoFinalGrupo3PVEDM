@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="img/LFP_logosimple.png" type="image/x-icon">
+        <meta name="theme-color" content="#FA170F">
+        <link rel="stylesheet" href="../static/css/bootstrap.css">
+        <link rel="stylesheet" href="../static/css/styles.css">
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <title>Iniciar Sesión</title>
+    </head>
+    
+    <body class="row">
+    	<header></header>
+    	<div class="login center col-sm-12 col-md-8">
+			<form>
+				<h3 class="centertext">INICIAR SESIÓN</h3>
+  				<div class="form-group">
+    				<label for="inputUser">Usuario</label>
+    				<input type="text" class="form-control" id="inputUser">
+  				</div>
+  				<div class="form-group">
+    				<label for="inputUserType">Tipo de Usuario</label>
+    				<select id="inputTypeUser" class="form-control">
+        				<option>Consultor</option>
+        				<option>Registrador</option>
+        				<option>BD</option>
+      				</select>
+  				</div>
+  				<button type="submit" class="btn btn-dark">Iniciar Sesión</button>
+			</form>	    	
+    	</div>    	    	
+    </body>
